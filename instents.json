@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["halo", "hai", "hello"],
+      "responses": ["Halo, apa kabar?", "Hai, apa yang bisa saya bantu?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["sampai jumpa", "bye", "goodbye"],
+      "responses": ["Sampai jumpa, semoga hari Anda menyenangkan!", "Bye, semoga kita bertemu lagi!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["terima kasih", "thank you"],
+      "responses": ["Sama-sama, senang bisa membantu!", "Tidak masalah, semoga bisa membantu lagi!"]
+    }
+  ]
+}
